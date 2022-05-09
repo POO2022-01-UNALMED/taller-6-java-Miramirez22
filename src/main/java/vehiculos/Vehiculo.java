@@ -23,7 +23,7 @@ public class Vehiculo {
 		this.fabricante = fabricante;
 		this.precio = precio;
 		listaFabricantes.add(fabricante);
-		CantidadVehiculos=+1;
+		CantidadVehiculos+=1;
 	}
 	public static void setCantidadVehiculos(int cantidadVehiculos) {
 		Vehiculo.CantidadVehiculos= cantidadVehiculos;
